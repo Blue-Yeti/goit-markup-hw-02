@@ -1,3 +1,13 @@
-h2 {
-    color:red
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+h3 {
+    color:red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+
 }
