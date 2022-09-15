@@ -2,57 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Studio</title>
+    <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <div>
-        <p><a class="main-logo" href="./index.html">WebStudio</a></p>
+    <header class="main-haeder">
+      <div class="main-logo">
+        <p><a class="link main-logo-link" href="./index.html">WebStudio</a></p>
       </div>
-      <nav class="header-nav">
+      <nav class="main-nav">
         <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="./index.html">Studio</a></li>
+          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="#">Contacts</a></li>
         </ul>
       </nav>
       <div class="header-contacts">
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="link meta-link" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <a class="link meta-link" href="tel:+12127724150">+1 212-772-4150</a>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="studio-hero">
         <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+        <button class="hero-btn" type="button">Request our service</button>
       </section>
-      <section class="second-section">
+      <section class="studio-second-section">
         <ul>
-          <li class="second-section-li">
+          <li>
             <h2>ATTENTION TO DETAILS</h2>
             <p>
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
-          <li class="second-section-li">
+          <li>
             <h3>PUNCTUALITY</h3>
             <p>
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
-          <li class="second-section-li">
+          <li>
             <h3>PLANNING</h3>
             <p>
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
-          <li class="second-section-li">
+          <li>
             <h3>MODERN TECHNOLOGIES</h3>
             <p>
               We use innovative tools to solve assigned tasks. It's time to
@@ -61,24 +72,24 @@
           </li>
         </ul>
       </section>
-      <section class="what-we-do-section">
+      <section class="studio-third-section">
         <h2>What we do</h2>
         <ul>
-          <li class="what-we-do-li">
+          <li>
             <img
               src="./images/img1.jpg"
               alt="office showcase picture #1"
               width="370"
             />
           </li>
-          <li class="what-we-do-li">
+          <li>
             <img
               src="./images/img2.jpg"
               alt="office showcase picture #2"
               width="370"
             />
           </li>
-          <li class="what-we-li">
+          <li>
             <img
               src="./images/img3.jpg"
               alt="office showcase picture #3"
@@ -87,10 +98,10 @@
           </li>
         </ul>
       </section>
-      <section class="team-section">
+      <section class="studio-team-section">
         <h2>Our Team</h2>
         <ul>
-          <li class="prifile">
+          <li>
             <img
               src="./images/profile-img1.jpg"
               alt="фото Игорь Демьяненко"
@@ -100,7 +111,7 @@
             <p>Product Designer</p>
           </li>
 
-          <li class="prifile">
+          <li>
             <img
               src="./images/profile-img2.jpg"
               alt="фото Ольга Репина"
@@ -109,7 +120,7 @@
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
-          <li class="prifile">
+          <li>
             <img
               src="./images/profile-img3.jpg"
               alt="фото Николай Тарасов"
@@ -118,7 +129,7 @@
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li class="prifile">
+          <li>
             <img
               src="./images/profile-img4.jpg"
               alt="фото Михаил Ермаков"
@@ -131,16 +142,16 @@
       </section>
     </main>
     <footer class="main-footer">
-      <p><a class="bottom-logo" href="./index.html">WebStudio</a></p>
+      <p><a class="link bottom-logo-link" href="./index.html">WebStudio</a></p>
       <address>
         <p>
           695 Park Ave, New York, NY 10065, <br />
           United States
         </p>
-        <a class="bottom-link-60" href="mailto:info@example.com"
+        <a class="link meta-link-60" href="mailto:info@example.com"
           >info@example.com</a
         >
-        <a class="bottom-link-60" href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="link meta-link-60" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>

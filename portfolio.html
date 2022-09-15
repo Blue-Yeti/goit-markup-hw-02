@@ -2,37 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div>
-        <p><a class="main-logo" href="./index.html">WebStudio</a></p>
+    <header class="main-haeder">
+      <div class="main-logo">
+        <p><a class="link main-logo-link" href="./index.html">WebStudio</a></p>
       </div>
-      <nav class="header-nav">
+      <nav class="main-nav">
         <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="./index.html">Studio</a></li>
+          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="#">Contacts</a></li>
         </ul>
       </nav>
       <div class="header-contacts">
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="link meta-link" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <a class="link meta-link" href="tel:+12127724150">+1 212-772-4150</a>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section>
         <div class="buttons">
           <ul>
-            <li><button type="submit">All</button></li>
-            <li><button type="submit">Web-sites</button></li>
-            <li><button type="submit">Apps</button></li>
-            <li><button type="submit">Design</button></li>
-            <li><button type="submit">Marketing</button></li>
+            <li><button class="btn1" type="submit">All</button></li>
+            <li><button class="btn1" type="submit">Web-sites</button></li>
+            <li><button class="btn1" type="submit">Apps</button></li>
+            <li><button class="btn1" type="submit">Design</button></li>
+            <li><button class="btn1" type="submit">Marketing</button></li>
           </ul>
         </div>
         <div class="gallery">
@@ -124,16 +135,16 @@
       </section>
     </main>
     <footer class="main-footer">
-      <p><a class="bottom-logo" href="./index.html">WebStudio</a></p>
+      <p><a class="link bottom-logo-link" href="./index.html">WebStudio</a></p>
       <address>
         <p>
           695 Park Ave, New York, NY 10065, <br />
           United States
         </p>
-        <a class="bottom-link-60" href="mailto:info@example.com"
+        <a class="link meta-link-60" href="mailto:info@example.com"
           >info@example.com</a
         >
-        <a class="bottom-link-60" href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="link meta-link-60" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>

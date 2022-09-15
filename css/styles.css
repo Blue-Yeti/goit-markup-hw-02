@@ -1,48 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+
+    /* 
+    main bule 2196F3
+    main white fff
+    main black 212121
+    main gray 757575
+    white-60 fff 60%
+    btn-bg F5F4FA
+    gallery-li-border-color EEEEEE
+    header-border-color ECECEC
+    */
+--main-blue: #2196F3;
+--main-white: #fff;
+--main-black: #212121;
+--main-gray: #757575;
+--white-60: rgba(255, 255, 255, 0.60);
+--btn1-bg: #F5F4FA;
+--gallery-li-border-color: #EEEEEE;
+--header-border-color: #ECECEC;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+
+    font-family: "Roboto", sans-serif;
+    color: var(--main-black);
 }
 
-a{
+.main-haeder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: var(--header-border-color) 1px solid;
+    font-size: 14px;
+
+}
+
+.link {
+    color: var(--main-black);
     text-decoration: none;
 }
-.main-logo{
-    color: #212121;
 
-}
-.header-contacts a{
-    color: #757575;
+.link:hover{
+color: var(--main-blue);
 }
 
-.header-nav a{
-    color: #212121;
+.main-logo-link{
+font-family: Raleway, sans-serif;
+font-size: 26px;
+font-weight: bold;
+}
+
+.main-nav ul{
+list-style: none;
+}
+.main-nav li{
+display: inline-block;
+padding: 10px 10px;
+margin-inline: 10px;
+    }
+
+.header-contacts a {
+color: var(--main-gray);
+padding: 10px 10px;
+margin-inline: 10px;
+}
+
+.main{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+}
+.buttons ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.btn1{
+    background-color: var(--gallery-li-border-color);
+    padding: 10px;
 }
 
 
-button{
-    background-color: #F5F4FA;
-}
 
 
-a:focus, a:hover, .main-footer p:hover {
-    color: #2196F3;
 
-}
 
-button:hover, button:focus{
-    background-color: #2196F3;
-    color: #fff;
-}
-
-.main-footer {
-    background-color: #2F303A;
-    color: #fff;
-}
-
-.bottom-logo{
-    color: #fff;
-}
 
 .bottom-link-60 {
     color: rgba(255, 255, 255, 0.60);
