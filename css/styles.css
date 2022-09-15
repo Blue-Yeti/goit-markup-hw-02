@@ -119,6 +119,8 @@ margin-inline: 10px;
     line-height: 30px;
     letter-spacing: 0.06em;
     border: none;
+    cursor: pointer;
+
 
 }
 
@@ -237,6 +239,7 @@ margin-top: 30px;
     height: 38px;
     padding: 10px 25px;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .btn1:hover {
