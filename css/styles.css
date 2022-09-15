@@ -86,14 +86,21 @@ margin-inline: 10px;
     display: flex;
     list-style-type: none;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .btn1{
-    background-color: var(--gallery-li-border-color);
-    padding: 10px;
+    border: none;
+    background-color: var(--btn1-bg);
+    font-size: 16px;
+    height: 38px;
+    padding: 10px 25px;
+    margin: 0 5px;
 }
 
-
-
+.btn1:hover {
+    background-color: var(--main-blue);
+    color: var(--main-white);
+}
 
 
 
