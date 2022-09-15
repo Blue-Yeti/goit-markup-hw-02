@@ -48,6 +48,8 @@ body {
 
 .link {
     color: var(--main-black);
+    font-size: 14;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -66,12 +68,16 @@ list-style: none;
 }
 .main-nav li{
 display: inline-block;
+font-size: 14px;
+font-weight: 500;
 padding: 10px 10px;
 margin-inline: 10px;
     }
 
 .header-contacts a {
 color: var(--main-gray);
+font-size: 14px;
+font-weight: 500;
 padding: 10px 10px;
 margin-inline: 10px;
 }
@@ -167,6 +173,7 @@ margin-inline: 10px;
 .meta-link-60{
     display: block;
     color: var(--white-60);
+    font-weight: 400;
     margin: 6px;
 
 }
