@@ -156,7 +156,6 @@ margin-inline: 10px;
 }
 
 .studio-second-section p{
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -215,7 +214,6 @@ margin-top: 30px;
 }
 
 .studio-team-section p{
-    font-weight: 400;
     font-size: 16px;
     color: var(--main-gray);
     line-height: 19px;
@@ -273,7 +271,6 @@ margin-top: 30px;
     color: var(--main-gray);
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 400;
     margin-top: 15px;
 }
 
