@@ -3,11 +3,53 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
 }
-
-h3 {
-    color:red;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 1.6rem;
+.main-logo{
+    color: #212121;
 
 }
+.header-contacts a{
+    color: #757575;
+}
+
+.header-nav a{
+    color: #212121;
+}
+
+
+button{
+    background-color: #F5F4FA;
+}
+
+
+a:focus, a:hover, .main-footer p:hover {
+    color: #2196F3;
+
+}
+
+button:hover, button:focus{
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.main-footer {
+    background-color: #2F303A;
+    color: #fff;
+}
+
+.bottom-logo{
+    color: #fff;
+}
+
+.bottom-link-60 {
+    color: rgba(255, 255, 255, 0.60);
+
+}
+
+
+/* 
+212121 link
+2196F3 active link
+
+757575
+
+*/
