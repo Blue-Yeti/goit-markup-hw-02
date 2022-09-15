@@ -14,7 +14,7 @@
 --main-blue: #2196F3;
 --main-white: #fff;
 --main-black: #212121;
---footer-bg: #2F303A;
+--main-bg: #2F303A;
 --main-gray: #757575;
 --white-60: rgba(255, 255, 255, 0.60);
 --btn1-bg: #F5F4FA;
@@ -33,7 +33,9 @@
 body {
 
     font-family: "Roboto", sans-serif;
+    font-size: 14px;
     color: var(--main-black);
+    letter-spacing: 0.03em;
 }
 
 .main-haeder{
@@ -42,13 +44,11 @@ body {
     align-items: center;
     height: 80px;
     border: var(--header-border-color) 1px solid;
-    font-size: 14px;
 
 }
 
 .link {
     color: var(--main-black);
-    font-size: 14;
     font-weight: 500;
     text-decoration: none;
 }
@@ -68,15 +68,18 @@ list-style: none;
 }
 .main-nav li{
 display: inline-block;
-font-size: 14px;
 font-weight: 500;
 padding: 10px 10px;
 margin-inline: 10px;
-    }
+}
+
+.header-contacts{
+    display: flex;
+    list-style-type: none;
+}
 
 .header-contacts a {
 color: var(--main-gray);
-font-size: 14px;
 font-weight: 500;
 padding: 10px 10px;
 margin-inline: 10px;
@@ -88,12 +91,145 @@ margin-inline: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.studio-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: var(--main-bg);
+}
+
+.studio-hero h1{
+    font-size: 44px;
+    color: var(--main-white);
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+}
+.hero-btn{
+    height: 50px;
+    width: 200px;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border: none;
+
+}
+
+.hero-btn:hover{
+    background-color: #2195f3df;
+}
+
+.h2-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    padding: 30px;
+}
+
+
+.studio-second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.studio-second-section ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 85%;
+
+}
+
+.studio-second-section li{
+    margin: 10px;
+}
+
+.studio-second-section p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-gray);
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+.studio-third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.studio-third-section ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.studio-team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn1-bg);
+    height: 648px;
+    margin-top: 90px;
+}
+
+.studio-team-section ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 85%;
+
+}
+
+.studio-team-section li{
+background-color: var(--main-white);
+height: 368px;
+border: var(--gallery-li-border-color) 1px solid;
+margin-top: 30px;
+}
+
+.studio-team-section h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 25px;
+}
+
+.studio-team-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-gray);
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+
+}
+
 .buttons ul{
     display: flex;
     list-style-type: none;
     justify-content: center;
     margin-bottom: 50px;
 }
+
 .btn1{
     border: none;
     background-color: var(--btn1-bg);
@@ -140,7 +276,7 @@ margin-inline: 10px;
 
 .main-footer{
     display: flex;
-    background-color: var(--footer-bg);
+    background-color: var(--main-bg);
     height: 252px;
 
 }
@@ -167,7 +303,10 @@ margin-inline: 10px;
 .footer-div p{
     color: var(--main-white);
     margin: 6px;
+}
 
+.footer-div p:hover{
+    color: var(--main-blue);
 }
 
 .meta-link-60{
@@ -177,12 +316,3 @@ margin-inline: 10px;
     margin: 6px;
 
 }
-
-
-/* 
-212121 link
-2196F3 active link
-
-757575
-
-*/
