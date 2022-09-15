@@ -76,7 +76,7 @@ margin-inline: 10px;
 }
 
 .main{
-    width: 80%;
+    width: 90%;
     margin-inline: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -107,6 +107,16 @@ margin-inline: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type:none;
+}
+
+.gallery li{
+    display: block;
+    border: var(--gallery-li-border-color) solid 1px;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+
+
 }
 
 
