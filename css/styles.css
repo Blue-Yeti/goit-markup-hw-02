@@ -18,10 +18,11 @@
 --main-bg: #2F303A;
 --main-gray: #757575;
 --white-60: rgba(255, 255, 255, 0.60);
---blue-80:# #2195f3df
---btn-bg: #F5F4FA;
+--blue-80:rgba(33, 149, 243, 0.87);
+--btn-bg: #f5f4fa;   
 --gallery-li-border-color: #EEEEEE;
 --header-border-color: #ECECEC;
+
 
 
 }
@@ -32,6 +33,7 @@
     box-sizing: border-box;
 }
 
+
 body {
 
     font-family: "Roboto", sans-serif;
@@ -39,8 +41,14 @@ body {
     color: var(--main-black);
     letter-spacing: 0.03em;
     line-height: 1.62;
+    width: 1600px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .main-haeder{
     display: flex;
@@ -116,6 +124,7 @@ margin-inline: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 600px;
     background-color: var(--main-bg);
 }
@@ -162,15 +171,19 @@ margin-inline: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1600px;
+
 }
 .studio-second-section ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    max-width: 85%;
 
 }
 
+.studio-second-section h3{
+    font-size: 14px;
+}
 .studio-second-section li{
     margin: 10px;
 }
@@ -188,14 +201,15 @@ margin-inline: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 1170px;
+    margin: 94px 0;
 }
 
 .studio-third-section ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    width: 85%;
+    width: 100%;
 }
 
 .studio-team-section{
@@ -204,15 +218,23 @@ margin-inline: 10px;
     justify-content: center;
     align-items: center;
     background-color: var(--btn-bg);
-    height: 648px;
-    margin-top: 90px;
+    padding: 94px 0;
+    width: 100%;
+
+}
+
+.section-title{
+    margin-bottom: 50px;
 }
 
 .studio-team-section ul{
+    padding: 0;
+    margin: 0;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    width: 85%;
+    width: 1170px;
+
 
 }
 
@@ -220,7 +242,6 @@ margin-inline: 10px;
 background-color: var(--main-white);
 height: 368px;
 border: var(--gallery-li-border-color) 1px solid;
-margin-top: 30px;
 }
 
 .studio-team-section h3{
@@ -228,7 +249,6 @@ margin-top: 30px;
     font-size: 16px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 25px;
 }
 
 .studio-team-section p{
@@ -236,7 +256,6 @@ margin-top: 30px;
     color: var(--main-gray);
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 10px;
 
 }
 .buttons{
