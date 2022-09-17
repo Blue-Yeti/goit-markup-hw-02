@@ -171,13 +171,14 @@ margin-inline: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1600px;
+    width: 1170px;
 
 }
 .studio-second-section ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    width: 100%;
 
 }
 
@@ -185,14 +186,12 @@ margin-inline: 10px;
     font-size: 14px;
 }
 .studio-second-section li{
-    margin: 10px;
+ width: 270px;
 }
 
 .studio-second-section p{
-    font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--main-gray);
-    margin-top: 10px;
     text-align: justify;
 
 }
@@ -361,7 +360,10 @@ border: var(--gallery-li-border-color) 1px solid;
 .footer-div p:hover{
     color: var(--main-blue);
 }
-
+.div{
+    display: flex;
+    flex-direction: column;
+}
 .meta-link-60{
     display: block;
     color: var(--white-60);
